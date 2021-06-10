@@ -623,13 +623,13 @@ body {
 }
 
 .dd-image-right {
-  margin-top: 10px;
-  margin-right: 20px;
+  margin-top: 10px !important;
+  margin-right: 20px !important;
 }
 
 .dd-option-image,
 .dd-selected-image {
-  max-width: 20px;
+  max-width: 20px !important;
 }
 
 @media screen and (max-width: 720px) {
