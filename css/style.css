@@ -367,7 +367,8 @@ body {
 
 .container {
   position: absolute;
-  width: 1120px;
+  width: 100%;
+  max-width: 1120px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -417,8 +418,10 @@ body {
 }
 
 .medicine-image {
+  max-width: 465px;
+  width: 100%;
   position: absolute;
-  bottom: 35px;
+  bottom: 50px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -550,28 +553,6 @@ body {
   border-radius: 5px;
 }
 
-.form-select::before {
-  content: "";
-  width: 15px;
-  height: 15px;
-  background-image: url(../img/rus.jpg);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
-.form-select .rus::after {
-  content: "";
-  position: relative;
-  display: inline-block;
-  top: 0;
-  right: 0;
-  background-image: url(../img/rus.jpg);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 15px;
-  height: 15px;
-}
-
 .button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -607,5 +588,14 @@ body {
   background: #3e845b;
   -webkit-box-shadow: 2px 4px 15px 1px rgba(145, 255, 0, 0.7);
           box-shadow: 2px 4px 15px 1px rgba(145, 255, 0, 0.7);
+}
+
+.dd-image-right {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.dd-option-image, .dd-selected-image {
+  max-width: 20px;
 }
 /*# sourceMappingURL=style.css.map */
