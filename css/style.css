@@ -477,6 +477,7 @@ body {
 @media screen and (max-width: 1024px) {
   .offer {
     width: 100%;
+    padding-bottom: 30px;
   }
 }
 
@@ -505,6 +506,37 @@ body {
   width: 100%;
   max-width: 320px;
   margin: auto;
+  margin-bottom: 30px;
+}
+
+.offer-trust {
+  color: #212121;
+  font-weight: 700;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+.offer-trust .trusted {
+  margin-right: 20px;
+}
+
+.offer-trust .lock-icon {
+  width: 20px;
+  height: 20px;
+  fill: #3e845b;
+}
+
+.offer-trust .secure {
+  margin-left: 20px;
 }
 
 .form {
@@ -618,8 +650,8 @@ body {
 
 .button:hover {
   background: #3e845b;
-  -webkit-box-shadow: 2px 4px 15px 1px rgba(145, 255, 0, 0.7);
-          box-shadow: 2px 4px 15px 1px rgba(145, 255, 0, 0.7);
+  -webkit-box-shadow: 2px 4px 15px 1px rgba(0, 255, 76, 0.7);
+          box-shadow: 2px 4px 15px 1px rgba(0, 255, 76, 0.7);
 }
 
 .dd-image-right {
@@ -630,6 +662,18 @@ body {
 .dd-option-image,
 .dd-selected-image {
   max-width: 20px !important;
+}
+
+.dd-selected {
+  background: #f8f8f8;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  outline: none;
+}
+
+.dd-select {
+  border: none !important;
+  background: none !important;
 }
 
 @media screen and (max-width: 720px) {
@@ -668,6 +712,7 @@ body {
   }
   .offer-text {
     color: #212121;
+    background: none;
   }
 }
 
